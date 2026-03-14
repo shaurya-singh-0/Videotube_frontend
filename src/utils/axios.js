@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const axiosInstance = axios.create({
-    baseURL: "https://videotube-frontend-beta.vercel.app",
+    baseURL: "https://videotube-backend-s8ks.onrender.com/api/v1",
     withCredentials: true  // important for cookies/JWT
 })
 
